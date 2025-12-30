@@ -9,12 +9,12 @@ plugins = dict(root="plugins")
 if __name__ == "__main__":
     bot = Client(
         "Master",
-        bot_token=Config.BOT_TOKEN,
-        api_id=Config.API_ID,
-        api_hash=Config.API_HASH,
+        bot_token="8409425850:AAH_cMt_YrQM_FmJTAjwp8MuOkkN709AVr0",
+        api_id=27433400,
+        api_hash="1a286620de5ffe0a7d9b57e604293555",
         sleep_threshold=120,
         plugins=plugins,
-        workers=10000,
+        workers=8,
     )
     async def main():
         await bot.start()
